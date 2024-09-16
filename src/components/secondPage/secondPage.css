@@ -1,0 +1,35 @@
+.improve2 h4{
+    display: none;
+}
+.improve1 h3{
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .future {
+      flex-direction: column;
+      text-align: center;
+    }
+    .improve2 h4{
+        display: block;
+    }
+  
+    .improve, .improve1, .improve2 {
+      padding: 10px 0;
+      margin-bottom: 20px;
+    }
+  
+    .improve h3, .improve1 h3, .improve2 h3 {
+      font-size: 1.2em;
+      line-height: 1.4em;
+    }
+  
+    .improve p, .improve2 p {
+      font-size: 1em;
+      line-height: 1.6em;
+      padding: 0 15px;
+    }
+    .improve1{
+        display: none;
+        margin-bottom: 1000px;
+    }
+  }

@@ -1,0 +1,38 @@
+@media only screen and (max-width: 768px) {
+    .picture {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .case-studies {
+        padding: 15px;
+    }
+
+    .request {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .request1 p, .Register h2 {
+        margin: 10px 0;
+    }
+
+    .Register button {
+        width: 70%;
+        max-width: 300px;
+        margin-top: 29px;
+    }
+    .Register{
+        height: 200px;
+        display: table-row;
+    }
+    .text{
+        padding-right: 20px;
+    }
+}
