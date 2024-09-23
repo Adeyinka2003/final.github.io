@@ -3,11 +3,29 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        transform: translateX(20%); 
+        position: relative;
     }
 
     .text {
         padding-left: 0;
         margin-top: 20px;
+    }
+    .text p{
+        color: white;
+        font-size: large;
+        margin-bottom: 20px;
+    }
+    .text h4
+    {
+        color: white;
+        margin-bottom: 20px;
+    }
+    .text h2{
+        margin-bottom: 20px;
+    }
+    .text h5 {
+        color: rgb(225,138,143);
     }
 
     .case-studies {

@@ -7,10 +7,17 @@
 @media only screen and (max-width: 768px) {
     .future {
       flex-direction: column;
+      padding: 20px;
       text-align: center;
-    }
+      transform: translateX(20%); 
+      position: relative;   
+  }
     .improve2 h4{
         display: block;
+    }
+    .improve2 p{
+      margin-bottom: 27px;
+      color: white;
     }
   
     .improve, .improve1, .improve2 {

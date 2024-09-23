@@ -9,7 +9,7 @@ import Five from '../../assets/blog05.png'
 const Fourthpage = () => {
   return (
     <div id='case-studies' >
-        <header>
+        <header className='alot'>
     <h1>A lot is happening, We are blogging about it.</h1>
 </header>
 

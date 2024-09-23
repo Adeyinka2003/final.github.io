@@ -38,7 +38,7 @@ const Firstpage = () => {
                 </p>
             </div>
         </div>
-        
+                
       </div>
     </div>
   )

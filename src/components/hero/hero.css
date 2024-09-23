@@ -223,13 +223,11 @@ body {
     
 }
 .ai img{
-    /* width: 80%; */
+
     margin-top: 90px;
 }
 .Register button{
     border-radius: 10px; 
-    /* margin: +12%; */
-    /* margin-top: +130px; */
     justify-content: center;
 }
 .request{
@@ -257,14 +255,11 @@ body {
     background: linear-gradient(to right, rgb(174,103,250),rgb(221, 94, 43));    
     background-clip: text;
     color: transparent; 
-    /* margin: 2rem;   */
-    /* width: 75%; */
     padding-top: 20px;
     padding-bottom: 15px;
 }
 .big img{
     height: 40%;
-    /* width: 100%; */
     object-fit: contain;
     overflow: hidden;
 }
@@ -279,18 +274,13 @@ body {
     padding-top: 15px;
     font-size: larger;
 }
-
-
 .div{
     height: 150px;
     width: 40%;
     object-fit: cover;
-    
-
 }
 .big{
     margin-top: 40PX;
-    
 }
 .div{
     width: 55%;
@@ -302,19 +292,19 @@ body {
 .aaa p{
     padding-bottom: 20px;
 }
+
+
 .lib h1{
     font-weight: 900;
     font-size: 60px;
-    
 }
-
-
 
 
 header {
     text-align: center;
     margin-bottom: 30px;
 }
+
 
 header h1 {
     font-size: 2rem;
@@ -332,7 +322,6 @@ header h1 {
     grid-template-columns: 2fr 1fr 1fr; 
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-    /* width: 100%; */
     max-width: 1200px;
 }
 
@@ -382,5 +371,59 @@ header h1 {
 .picture{
     text-align: center;
 }
+@media (max-width: 768px) {
+    .heros {
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+      text-align: center;
+      box-sizing: content-box;
+    }
+  
+    .hero h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .hero p {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .email-input {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .cta-button {
+      width: 40%;
+    }
+  
+    .people-number {
+      display: block;
+      text-align: center;
+    }
+  
+    .ai {
+      margin-top: 30px;
 
+    }
+    
+}
+@media (max-width: 768px) {
+    #google img {
+        max-width: 50px;
+        }
+    #google{
+        width: 100%;
+        box-sizing: border-box;
+        margin-right: 200px;
+    }
+    #google {
+        width: 135%; 
+    }
 
+    #google img {
+        max-width: 80px; 
+}
+ }

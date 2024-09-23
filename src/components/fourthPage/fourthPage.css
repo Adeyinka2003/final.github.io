@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    
+        .case-studies{
+        transform: translateX(20%);  
+        position: relative;          
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    .blog-section {
+        transform: translateX(20%);  
+        position: relative;
+    }
+    .alot h1{
+        
+        transform: translateX(20%);  
+        position: relative;
+    }
+    
+
+    
+}

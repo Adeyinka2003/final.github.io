@@ -14,12 +14,9 @@ const Thirdpage = () => {
         <h2>The possibilities are beyond your imagination</h2>
         <p>
             Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-           <p>Request Early Access to Get Started </p>
+           <h5>Request Early Access to Get Started </h5>
     </div>
 </div>
-
-
-
 <div className="case-studies">
 <div className="request">
     <div className="request1">
